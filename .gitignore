@@ -1,0 +1,9 @@
+Thumbs.db
+_ReSharper.*
+*.user
+*.suo
+obj
+*.testsettings
+*.vsmdi
+*.Cache
+*.pdb
