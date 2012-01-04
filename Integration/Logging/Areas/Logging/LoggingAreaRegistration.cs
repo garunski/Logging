@@ -17,7 +17,7 @@ namespace Logging.Areas.Logging
 			context.MapRoute(
 				"logging_default",
 				"logging/{controller}/{action}/{id}",
-				new { action = "index", id = UrlParameter.Optional }
+				new { action = "index", controller = "home", id = UrlParameter.Optional }
 			);
 		}
 	}
